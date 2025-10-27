@@ -5,10 +5,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Liczby musza byc parzyste, rozne od zera i w zakresie <-10;10>");
 
-        System.out.print("Podaj pierwsza liczbe calkowita: ");
+        System.out.println("Podaj pierwsza liczbe calkowita: ");
         int a = scanner.nextInt();
 
-        System.out.print("Podaj druga liczba calkowita: ");
+        System.out.println("Podaj druga liczba calkowita: ");
         int b = scanner.nextInt();
 
         if (!czyPoprawna(a) || !czyPoprawna(b)) {
